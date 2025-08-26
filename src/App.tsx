@@ -36,7 +36,7 @@ export default function Home() {
           </button>
         </div>
       </section>
-      <section className="flex flex-col bg-[url(./assets/sec_2_bg.png)] gap-4 lg:gap-0 pt-4 sm:py-12 sm:px-6 md:px-12 items-center min-w-screen min-h-screen overflow-x-hidden"
+      <section className="flex flex-col bg-[url(./sec_2_bg.png)] gap-4 lg:gap-0 pt-4 sm:py-12 sm:px-6 md:px-12 items-center min-w-screen min-h-screen overflow-x-hidden"
         style={
           { fontSize: 'clamp(1rem, 2.5vw + 1rem, 16rem' }
         }
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={`flex flex-col justify-center items-center bg-[url(./assets/sec_3_bg.png)] lg:bg-[url(./assets/sec_3_bg_des.png)] bg-cover bg-center min-w-screen min-h-screen lg:min-h-[45vh] py-12 md:px-6 lg:px-0 lg:pb-24`}>
+      <section className={`flex flex-col justify-center items-center bg-[url(./sec_3_bg.png)] lg:bg-[url(./sec_3_bg_des.png)] bg-cover bg-center min-w-screen min-h-screen lg:min-h-[45vh] py-12 md:px-6 lg:px-0 lg:pb-24`}>
         <h1 className="font-extrabold responsive-heading text-white text-center mb-12">Features</h1>
         <div className="flex flex-col md:flex-row md:flex-wrap  gap-8 md:gap-14 lg:gap-10 justify-center items-center flex-1">
           <SimplePic className="w-60 sm:w-70  h-60 sm:h-70 " src="./assets/fea_1.png" />
@@ -79,7 +79,7 @@ export default function Home() {
       <section className="min-w-screen h-[250px] sm:h-[300px] md:h-[450px] lg:h-[600px] xl:h-[700]">
         <Carousal onDotsData={setDotsData} />
       </section>
-      <section className="flex flex-col justify-center items-center bg-[url(./assets/sec_5_bg.png)] text-center bg-white max-w-screen min-h-[114px] px-10 pb-14">
+      <section className="flex flex-col justify-center items-center bg-[url(./sec_5_bg.png)] text-center bg-white max-w-screen min-h-[114px] px-10 pb-14">
         {dotsData && (
           <div className="embla__dots min-w-[200px] min-h-[50px] flex gap-4 my-2 justify-center items-center">
             {dotsData.scrollSnaps.map((_, index) => (
@@ -99,7 +99,7 @@ export default function Home() {
             <p className="font-light text-center responsive-body">From delivery riders to traffic officers, NOVA is redefining what it means to ride responsibly. Whether it’s the brain-signal ignition lock or the ECE-certified impact protection, people trust NOVA to keep them safe on every ride.</p>
           </div>
 
-          <div className="relative min-h-[250px] flex flex-col gap-2 justify-end items-center mt-30 px-6 md:px-15 lg:px-20 xl:px-40 py-8 text-white rounded-2xl bg-[url(./assets/sec_5_inbg.png)] bg-cover bg-center">
+          <div className="relative min-h-[250px] flex flex-col gap-2 justify-end items-center mt-30 px-6 md:px-15 lg:px-20 xl:px-40 py-8 text-white rounded-2xl bg-[url(./sec_5_inbg.png)] bg-cover bg-center">
             <Picture
               classes="absolute w-[clamp(200px,3vw+30px,400px)] h-[clamp(200px,3vw+30px,400px)] left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 "
               imgClasses="w-full h-full"

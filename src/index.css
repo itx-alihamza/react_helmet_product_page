@@ -17,3 +17,8 @@
 .responsive-body {
   font-size: clamp(1rem, 1vw + .8rem, 1.3rem);
 }
+
+.responsive-header-padding {
+  padding-left: clamp(1rem, 4vw, 3rem);
+  padding-right: clamp(1rem, 4vw, 3rem);
+}

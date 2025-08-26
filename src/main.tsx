@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 
 import './index.css'
 import App from './App.tsx'
+import Footer from './components/Footer.tsx';
+import Header from './components/Header.tsx';
 // import Footer from './components/Footer.tsx'
 // import Header from './components/Header.tsx'
 
@@ -14,8 +16,9 @@ if (container) {
   console.log('✅ Smart Helmet: Rendering app...');
   root.render(
     <StrictMode>
+      <Header />
       <App />
-      {/* <Footer /> */}
+      <Footer />
     </StrictMode>
   );
 } else {
